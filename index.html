@@ -16,48 +16,15 @@
   </nav>
   </script>
  <div class="hero-content">
-      <center><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Welcome to FastBreak Jerseys, Your One-Stop Shop for NBA Jerseys</h2></center>
+      <center><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Welcome to FastBreak Basketball, Your One-Stop Shop for things all NBA</h2></center>
       <center><img src="FastBreak.png" height="250"></center>
       <center><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Experience the thrill of the game, from street courts to the NBA Finals.</p></center>
       <center><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">In this store, you can find almost all of the NBA Jerseys that the NBA has in store. From Kareem Abdul-Jabbar Laker Jerseys to current day LeBron James jerseys, this store has it all.</p></center>
-    </div>
+      <center><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">You can also find shoes of your liking. From Air Jordans to LeBrons, and many more. Choose what your game needs and wants</p></center>
+ </div>
     <br>
-    <div class="carousel">
-      <div class="slides">
-          <img src="lebron23.jpg" class="slide" alt="LeBron James" height="550">
-          <img src="jordan23.jpg" class="slide" alt="Michael Jordan" height="550">
-          <img src="curry30.jpg" class="slide" alt="Stephen Curry" height="550">
-          <img src="tatum0.jpg" class="slide" alt="Jayson Tatum" height="550">
-          <img src="kareem33.jpeg" class="slide" alt="Kareem Abdul-Jabbar" height="550">
-      </div>
-      <div class="carousel-controls">
-          <button onclick="prevSlide()">❮</button>
-          <button onclick="nextSlide()">❯</button>
-      </div>
-  </div>
   
-  <script>
-      let currentSlide = 0;
   
-      function showSlide(index) {
-          const slides = document.querySelector('.slides');
-          const totalSlides = document.querySelectorAll('.slide').length;
-          if (index >= totalSlides) currentSlide = 0;
-          else if (index < 0) currentSlide = totalSlides - 1;
-          else currentSlide = index;
-  
-          slides.style.transform = `translateX(-${currentSlide * 100}%)`;
-      }
-  
-      function nextSlide() {
-          showSlide(currentSlide + 1);
-      }
-  
-      function prevSlide() {
-          showSlide(currentSlide - 1);
-      }
-  </script>
-  </div>
   <footer class="nba-footer">
     <div class="footer-content">
         <center><p>&copy; 2024 Dilshad Inc. All Rights Reserved</p></center>
